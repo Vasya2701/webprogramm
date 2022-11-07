@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Пример веб-страницы</title>
+</head>
+<body>
+<h1>Анкета</h1><br>
+<form style="width: 500px;">
+    <p>Контактная информация</p>
+    <p><label for="name">Имя</label><br>
+        <input type="text" id="name">
+    </p>
+    <p><label for="teleph">Телефон</label><br>
+        <input type="text" id="teleph">
+    </p>
+    <p><label for="mail">E-mail</label><br>
+        <input type="text" id="mail">
+    </p>
+    <p><label for="date">Дата посещения:</label><br>
+        <input type="date" id="date">
+    </p>
+    <p>Персональная информация</p>
+    <p><label for="age">Возраст</label><br>
+        <input type="text" id="age">
+    </p>
+    <form >
+        <p><legend>Любимая кухня</legend><br><select>
+            <option>Русская</option>
+            <option>Китайская</option>
+            <option>Японская</option>
+            <option>Французкая</option></select></p>
+        <p><legend>Какие блюда вы бы хотели увидеть в меню</legend><textarea></textarea></p>
+        <form action="handler.php">
+            <p><b>Почему вы выбрали наше заведение?</b></p>
+            <p><input type="radio" name="answer" value="a1">Недалеко от работы<Br>
+                <input type="radio" name="answer" value="a2">Реклама<Br>
+                <input type="radio" name="answer" value="a3">Посоветовали</p>
+        </form>
+        <form action="handler.php">
+            <p><b>Вы будете рекомендовать наше заведение?</b></p>
+            <p><input type="radio" name="answer" value="a1">Да<Br>
+                <input type="radio" name="answer" value="a2">Нет</p>
+        </form>
+
+        <p><input type="reset"><input type="submit"></p>
+    </form>
+</form>
+</body>
+</html>
+
+
+
+
+
+
